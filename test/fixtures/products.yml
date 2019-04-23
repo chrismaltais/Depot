@@ -1,13 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
+one: # Name gives us convenient way of referencing data
+  title: Book Title 1
   description: MyText
-  image_url: MyString
+  image_url: SS1.png
   price: 9.99
 
-two:
-  title: MyString
+two: # Name of row in DB, does not rly matter as it's not inserted to DB
+  title: Book Title 2
   description: MyText
-  image_url: MyString
+  image_url: SS2.png
   price: 9.99
+
+ruby:
+  title: Ruby Performance Optimization
+  description: Ye this is Ruby boi
+  price: 49.50
+  image_url: SS3.png
