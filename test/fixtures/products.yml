@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one: # Name gives us convenient way of referencing data
-  title: Book Title 1
+  title: Book Title 2
   description: MyText
   image_url: SS1.png
   price: 9.99
@@ -17,3 +17,9 @@ ruby:
   description: Ye this is Ruby boi
   price: 49.50
   image_url: SS3.png
+
+title_too_short:
+  title: Bob
+  description: MyText
+  image_url: SS2.png
+  price: 123
