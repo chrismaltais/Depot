@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :line_items
+  resources :carts
   # Defines root path as index action from store controller
   # Create 'store_index_path' and 'store_index_url' accessor methods, enabling existing code/tests to work correctly
   root 'store#index', as: 'store_index'
